@@ -11,23 +11,23 @@ export const Statistics = ({
 }) => {
   return (
     <StatisticsList>
-      <li key={good}>
+      <li key={1}>
         <p>Good: {good}</p>
       </li>
 
-      <li key={neutral}>
+      <li key={2}>
         <p>Neutral: {neutral}</p>
       </li>
 
-      <li key={bad}>
+      <li key={3}>
         <p>Bad: {bad}</p>
       </li>
 
-      <li key={total}>
+      <li key={4}>
         <p>Total: {total}</p>
       </li>
 
-      <li key={positivePercentage}>
+      <li key={5}>
         <p>Positive feedback: {positivePercentage}%</p>
       </li>
     </StatisticsList>
